@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Project -->
+  <div id="main" class="main">
+    <!-- Heade Section -->
+    <header class="header">
+      <h2>ISMAIL CSC & CSP</h2>
+      <h4>Near Progati College, Agomani</h4>
+      <h4>WhatsApp Number : +91 70020 87962</h4>
+    </header>
+    
+    <!-- Container Section -->
+    <div class="container" id="container">
+      <form action="">
+        <input type="text" name="name" id="fName" placeholder="First Name" required />
+        <input type="text" name="lName" placeholder="Last Name" required />
+        <button type="submit" onclick="changeText()"> Submit </button>
+        <button type="reset" onclick="reset()">Reset</button>
+      </form>
+      
+      <div class="msg" id="msg">
+        <h2 id="fname"></h2>
+        <h2><span id="lName"></span></h2>
+      </div>
+    </div>
+    
+    <!-- Footer section -->
+    <footer class="footer">
+      All Rights Reserved! Copyright &copy; 2025<br> ISMAIL CSC & CSP
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
